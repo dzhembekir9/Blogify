@@ -1,0 +1,38 @@
+.create {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.blog-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex: 1;
+}
+
+label {
+    margin: 10px;
+    font-size: 25px;
+}
+
+input {
+    width: 500px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+
+input[name=body] {
+    height: 50px;
+}
+
+.title {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.create-blog-btn {
+    font-size: 15px;
+}

@@ -1,0 +1,9 @@
+.contact-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.contact-container {
+    flex: 1;
+}
